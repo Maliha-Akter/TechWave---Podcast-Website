@@ -350,8 +350,52 @@ nav .nav-link ul li {
   gap: 10px;
 }
 
-
-
+/* Meet The Host */
+.meeting-container{
+  color: white;
+  max-width: 1200px;
+  margin: 0 auto;
+  
+}
+.meeting-title{
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2.25rem;
+}
+.meeting-main-container{
+ background-color: rgba(53, 17, 101, 0.4);
+ border-radius: 2.25rem;
+ display: flex;
+ justify-content: space-between;
+ padding: 2.25rem;
+ align-items: center;
+ gap: 1.25rem;
+}
+.meeting-main-container .meeting-discuss h3{
+ font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.meeting-main-container .meeting-discuss p{
+ font-size: 1rem;
+  font-weight: normals;
+  margin-bottom: 2rem;
+}
+.social-media{
+  display: flex;
+  gap: 2rem;
+}
+/* Footer */
+footer{
+  margin: 7.5rem auto 0;
+  max-width: 1600px;
+  text-align: center;
+  background-image: url("../assets/hero-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
 
@@ -462,5 +506,25 @@ nav .nav-link ul li {
 
 }
 
+/* meeting section */
+.meeting-container{
+  color: white;
+  max-width: 25rem;
+  margin: 0 auto;
+  
+}
+.meeting-main-container{
 
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ padding: 2.25rem;
+ text-align: center;
+ gap: 1.25rem;
+}
+.social-media{
+  margin: 0 auto;
+  /* justify-content: space-between; */
+  justify-content: center;
+}
 }
