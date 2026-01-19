@@ -427,8 +427,11 @@ nav .nav-link ul li {
 }
 
 /* Why Choose */
+.choose-container{
+  padding:2rem 0 ;
+}
 .choose-container .choose-description .choose-card{
- margin:1rem 1.2rem;
+ margin:0 1.2rem;
 }
 .choose-container .choose-description{
   display: grid;
@@ -444,5 +447,20 @@ nav .nav-link ul li {
 .choose-container .choose-title{
   font-size: 2rem;
 }
+
+
+
+/* episodes */
+.episode{
+  margin: 2rem auto;
+  
+}
+.feature-card-container{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  justify-items: center;
+
+}
+
 
 }
