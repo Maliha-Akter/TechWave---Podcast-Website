@@ -302,6 +302,60 @@ nav .nav-link ul li {
   font-size: 1rem;
   font-weight: normal;
 }
+/* Youtube Features */
+.episode{
+  color: white;
+  background-color: #1A0B2E;
+  max-width: 1200px;
+  margin: 5rem auto;
+}
+.featured-title-episode{
+  text-align: center;
+}
+.feature-card-container{
+  padding-top: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 2rem;
+}
+.feature-card{
+  position: relative;
+  /* border: 1px solid #F7E93F; */
+  max-width: 380px;
+  border-radius: 1.5rem;
+  background-color: #230E3D;
+}
+.video iframe{
+  position: relative;
+  top: 0;
+  left: 0;
+  max-width: 380px;
+  border-radius: 1.5rem;
+}
+.feature-description{
+  padding: 1.5rem;
+}
+.feature-description h3{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.feature-description p{
+  padding-top: 1rem;
+  font-size: 1rem;
+  font-weight: normal;
+}
+.feature-description .feature-span-button{
+  padding-top: 1rem;
+  display: flex;
+  gap: 10px;
+}
+
+
+
+
+
+
+
 
 
 
