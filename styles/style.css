@@ -84,29 +84,42 @@ nav .nav-link ul li {
   padding-bottom: 100px;
   margin: 0 auto;
   max-width: 1600px;
-  border: 2px solid yellow;
-  /* display: grid;
-  justify-content: center; */
+  /* border: 2px solid yellow; */
   text-align: center;
   background-image: url("../assets/hero-bg.png");
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
+.banner .new-position{
+  position: absolute;
+  top: 1.25rem;
+  right: 0;
 
+}
+.banner .new-position span{
+  font-size: 18px;
+  font-weight: 600;
+  border: 1px solid #00FF88;
+  border-radius: 32px;
+  background-color: #00FF88;
+  padding: 5px 15px;
+}
 .banner-img-container {
   border: 8px solid #2A186C;
   max-width: 350px;
   margin: 0 auto;
   border-radius: 50%;
-  padding: 69px 75px 68px 65px;
+  padding: 5rem 4.4rem 4rem ;
   margin-bottom: 40px;
   background: linear-gradient(45deg, #F7E93F 17%, #FB09B4 40%, #9100F8 100%);
+  position: relative;
 }
 
 .banner .banner-microphone {
-  /* margin: 0 auto; */
-  /* border: 1px solid white; */
   padding: 0.5rem 3rem 1rem;
+  width: 100%;
+  /* height: auto; */
 
 }
 
@@ -149,4 +162,44 @@ nav .nav-link ul li {
   padding: 12px 24px;
   font-size: 1rem;
   font-weight: 600;
+}
+.nav-button-replacement{
+  display: none;
+}
+
+@media screen and (max-width:576px) {
+  nav{
+    margin: 0 1.25rem;
+  }
+  nav .nav-link, nav .nav-btn{
+    display: none;
+  }
+ .nav-button-replacement{
+  display: flex;
+  margin-right: 1rem;
+}
+/* banner */
+.banner {
+  background-size: contain;
+  background-position: center;
+  padding: 2.5rem 1rem
+  
+}
+.banner-img-container {
+ 
+  max-width: 200px;
+  margin: 0 auto;
+  padding: 3rem 3.5rem;
+  margin-bottom: 1.5rem;
+  
+}
+.banner-img-container .banner-microphone{
+  width: 100%;
+  height: auto;
+  padding: 5px;
+
+}
+.banner-container-description{
+  margin-bottom: 1rem;
+}
 }
