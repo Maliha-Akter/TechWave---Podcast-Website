@@ -214,7 +214,94 @@ nav .nav-link ul li {
   padding: 5px 24px;
 }
 
-
+/* why choose  */
+.choose{
+  color: white;
+  background-color: #230E3D;
+}
+.choose-container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 7.5rem 0;
+}
+.choose-container .choose-title{
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2.25rem;
+}
+.choose-container .choose-description{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2,1fr) 1.5fr;
+  gap: 2rem;
+}
+.choose-container .choose-description .choose-card{
+  background-color: #351165 ;
+  border-radius: 2.23rem;
+}
+.choose-card{
+  /* padding: 7rem 2.5rem; */
+  /* border: 1px solid yellow; */
+  padding:3rem;
+}
+.premium{
+  grid-row: span 2;
+  align-content: center;
+  /* padding: 7rem 2.5rem; */
+}
+.mobile{
+  grid-column: span 2;
+  align-content: center;
+}
+ .global{
+  grid-column: span 2;
+  align-content: center;
+}
+.interviews{
+  grid-column: span 2;
+  align-content: center;
+}
+.interviews image{
+  background-color: transparent;
+}
+.resources{
+  grid-column: span 1;
+  align-content: center;
+}
+.premium img ,h5{
+  grid-row: span 2;
+  margin-bottom: 1rem;
+  align-content: center;
+}
+.mobile img ,h5{
+  grid-row: span 2;
+  margin-bottom: 1rem;
+  align-content: center;
+}
+.global img ,h5{
+  grid-row: span 2;
+  margin-bottom: 1rem;
+  align-content: center;
+}
+.interviews img ,h5{
+  grid-row: span 2;
+  margin-bottom: 1rem;
+  align-content: center;
+}
+.resources img ,h5{
+  grid-row: span 2;
+  margin-bottom: 1rem;
+  align-content: center;
+}
+.premium h5 ,.mobile h5, .global h5 ,.interviews h5 ,.resources h5{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.premium p{
+  font-size: 1rem;
+  font-weight: normal;
+}
 
 
 
@@ -284,4 +371,24 @@ nav .nav-link ul li {
   gap: 2.3rem;
   padding: 0  1.25rem;
 }
+
+/* Why Choose */
+.choose-container .choose-description .choose-card{
+ margin:1rem 1.2rem;
+}
+.choose-container .choose-description{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-template-rows: repeat(5,1fr);
+  gap: 1rem;
+}
+.premium ,.mobile, .global ,.interviews ,.resources{
+  grid-row: span 1;
+  grid-column: span 1;
+  /* padding: 7rem 2.5rem; */
+}
+.choose-container .choose-title{
+  font-size: 2rem;
+}
+
 }
